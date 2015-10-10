@@ -1,0 +1,192 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+/******************************************
+/* SETUP                   
+/*******************************************/
+/* Box Model Hack */
+
+* {
+  -moz-box-sizing: border-box;
+  /* Firexfox */
+  
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome/iOS/Android */
+  
+  box-sizing: border-box;
+  /* IE */
+}
+/* Clear fix hack */
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px;
+  /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0;
+  /* note the padding around a left floated image */
+}
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+/* Center the container */
+
+#container {
+  width: 780px;
+  margin: auto;
+}
+
+header {
+  background: #000;
+  border-bottom: 3px solid #FFFF00;
+  float: left;
+}
+
+footer {
+  background: #000;
+  color: #FFF;
+  font-variant: 'Source Sans Pro', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 1.2em;
+  width: 100%;
+  float: left;
+}
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+h1 {
+  color: #FFFF00;
+  font-family: 'pro sans serif', sans-serif;
+  padding: 0em .9em 0em .9em;
+  font-size: 2.5em;
+  float: left;
+  margin: 8px 15px 0px 0px;
+}
+
+nav {
+  float: right;
+  padding: 0em 2.5em;
+  margin: 0px;
+}
+
+ul li {
+  font-family: 'pro sans serif' , sans-serif;
+  color: #FFF;
+  list-style-type: none;
+  vertical-align: middle;
+  display: inline;
+  padding: 1px 5px;
+  font-size: 1.5em;
+}
+
+.important {
+  font-family: 'Oswald' , sans-serif;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+span {
+  margin-left: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover {
+  color: #FFFF00;
+}
+
+.button {
+   font-family: 'Oswald', sans-serif;
+   font-size: 12px;
+   font-weight: 900;
+   text-decoration: none;
+   text-transform: uppercase;
+   letter-spacing: 1px; 
+   font-weight: bold;
+   background: #BBB;
+   color: black;
+   display: block;
+   text-align: center;
+   padding: 12px;
+   box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+   border-radius: 5px;
+   margin: 15px;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
+
+div:not(#container){
+    height: 245px;
+    border: 1px solid black;
+    width: 33.3333%;
+    float: left;
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px 25px 0px 15px;
+    line-height: 1em;
+}
+
+h4+p {
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;    
+    margin: 0px 15px 0px 15px;
+    line-height: 1em;
+}
+
+#main {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.button:hover{
+     background: #FFFF00;
+ }
+
+ img{
+     max-width: 780px;
+     float: left;
+ }
